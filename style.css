@@ -12,11 +12,12 @@ body {
   background-color: #1F2937;
 }
 
+/*header section*/
+
 .header {
   display: flex;
   padding: 16px 10% 0px;
   justify-content: space-between;
-
 }
 
 .logo {
@@ -39,12 +40,12 @@ body {
   font-size: 18px;
 }
 
-
+/*hero section + button*/
 
 .hero {
   display: flex;
   flex: 4.5;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 0px 10%;
   gap: 36px;
@@ -70,24 +71,48 @@ button {
   margin-top: 8px;
 }
 
-
-
-
+/*info section*/
 
 .info {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex: 5;
 }
+
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.info-cards {
+  display: flex;
+  gap: 16px;
+  padding-top: 32px;
+}
+
+.card-image {
+  border: solid #3882f6;
+  border-radius: 3px;
+}
+
+/*quote section*/
 
 .quote {
   background-color: #e5e7eb;
   flex: 4;
 }
 
+/*call section + button*/
+
 .call {
   display: flex;
   flex: 2.5;
 }
+
+/*footer section*/
 
 .footer {
   display: flex;
