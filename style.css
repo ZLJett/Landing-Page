@@ -14,8 +14,9 @@ body {
 
 .header {
   display: flex;
-  padding: 16px 10%;
+  padding: 16px 10% 0px;
   justify-content: space-between;
+
 }
 
 .logo {
@@ -38,10 +39,40 @@ body {
   font-size: 18px;
 }
 
+
+
 .hero {
   display: flex;
-  flex: 5;
+  flex: 4.5;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10%;
+  gap: 36px;
 }
+
+.hero-main {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+button {
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 3px;
+  padding: 4px 20px;
+  margin-top: 8px;
+}
+
+
+
+
 
 .info {
   display: flex;
