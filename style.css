@@ -79,6 +79,7 @@ button {
   justify-content: center;
   align-items: center;
   flex: 5;
+  padding: 0px 15%;
 }
 
 .info-header {
@@ -90,7 +91,7 @@ button {
 .info-cards {
   display: flex;
   gap: 16px;
-  padding-top: 32px;
+  margin-top: 32px;
 }
 
 .card-image {
@@ -98,14 +99,40 @@ button {
   border-radius: 3px;
 }
 
+.info-text {
+  text-align: center;
+}
+
 /*quote section*/
 
 .quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #e5e7eb;
   flex: 4;
+  padding: 0px 15%;
 }
 
-/*call section + button*/
+.quote-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  font-size: 24px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-att {
+  align-self: flex-end;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*call section*/
 
 .call {
   display: flex;
