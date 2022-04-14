@@ -2,15 +2,68 @@
 
 body {
   font-family: "roboto", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .header, .hero, .footer {
   background-color: #1F2937;
 }
 
-.quote {
-  background-color: #e5e7eb;
+.header {
+  display: flex;
+  padding: 16px 10%;
+  justify-content: space-between;
 }
 
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero {
+  display: flex;
+  flex: 5;
+}
+
+.info {
+  display: flex;
+  flex: 5;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  flex: 4;
+}
+
+.call {
+  display: flex;
+  flex: 2.5;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 24px;
+}
 
 
