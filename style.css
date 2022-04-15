@@ -75,6 +75,7 @@ button {
 .hero-image {
   background-color: lightgrey;
   height: auto;
+  width: 500px;
 }
 
 /*info section*/
