@@ -72,6 +72,12 @@ button {
   margin-top: 8px;
 }
 
+.hero-image {
+  background-color: lightgrey;
+  height: auto;
+  width: 400px;
+}
+
 /*info section*/
 
 .info {
@@ -98,6 +104,8 @@ button {
 .card-image {
   border: solid #3882f6;
   border-radius: 3px;
+  height: auto;
+  width: 100px;
 }
 
 .info-text {
