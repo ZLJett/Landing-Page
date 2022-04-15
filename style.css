@@ -75,7 +75,6 @@ button {
 .hero-image {
   background-color: lightgrey;
   height: auto;
-  width: 400px;
 }
 
 /*info section*/
@@ -97,15 +96,23 @@ button {
 
 .info-cards {
   display: flex;
-  gap: 16px;
+  gap: 32px;
   margin-top: 32px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 175px;
+
 }
 
 .card-image {
   border: solid #3882f6;
-  border-radius: 3px;
-  height: auto;
-  width: 100px;
+  border-radius: 10px;
+  height: 175px;
+  width: 175px;
 }
 
 .info-text {
