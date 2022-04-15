@@ -63,10 +63,11 @@ body {
 }
 
 button {
-  color: #e5e7eb;
+  color: #f9faf8;;
   background-color: #3882f6;
+  font-weight: bold;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 4px 20px;
   margin-top: 8px;
 }
@@ -136,7 +137,31 @@ button {
 
 .call {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 2.5;
+}
+
+.call-container {
+  display: flex;
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 24px 62px;
+  gap: 72px;
+}
+
+.call-header {
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.call-text {
+  color: #e5e7eb;
+}
+
+.call-container button {
+  border: solid #f9faf8;
 }
 
 /*footer section*/
